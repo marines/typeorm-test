@@ -1,7 +1,6 @@
 {
-   "type": "sqlite",
-   "database": "test.sqlite",
-   "synchronize": true,
+   "type": "postgres",
+   "url": "postgres://postgres:postgres@localhost:5432/typeorm_test",
    "logging": false,
    "entities": [
       "src/entity/**/*.ts"
